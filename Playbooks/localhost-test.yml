@@ -1,3 +1,11 @@
 ---
 - hosts: localhost
   connection: local
+  tasks:
+    - name: Display OS Family
+      debug:
+        var: ansible_os_family
+
+    - name: Display Interfaces
+      debug:
+        var: ansible_interfaces
