@@ -1,0 +1,9 @@
+---
+- src: mrlesmithjr.bootstrap
+  version: master
+
+- src: mrlesmithjr.mariadb-mysql
+  version: master
+
+- src: mrlesmithjr.nginx
+  version: master
