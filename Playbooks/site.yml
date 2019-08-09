@@ -1,4 +1,7 @@
 ---
+- name: Bootstrap Servers
+  import_playbook: bootstrap.yml
+
 - name: Provision DB Servers
   import_playbook: db.yml
 
