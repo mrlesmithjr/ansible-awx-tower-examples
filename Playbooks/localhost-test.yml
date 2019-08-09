@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
-  connection: local
+  # connection: local
   vars:
     env: qa
     loc: atlanta
