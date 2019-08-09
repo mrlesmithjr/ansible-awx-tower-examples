@@ -1,0 +1,6 @@
+---
+- name: Provision DB Servers
+  import_playbook: db.yml
+
+- name: Provision Web Servers
+  import_playbook: web.yml
