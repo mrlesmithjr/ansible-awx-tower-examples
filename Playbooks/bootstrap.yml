@@ -2,4 +2,5 @@
 - name: Bootstrap Servers
   hosts: db:web
   roles:
+    - role: mrlesmithjr.change-hostname
     - role: mrlesmithjr.bootstrap

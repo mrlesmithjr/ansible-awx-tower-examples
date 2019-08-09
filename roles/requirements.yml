@@ -2,6 +2,9 @@
 - src: mrlesmithjr.bootstrap
   version: master
 
+- src: mrlesmithjr.change-hostname
+  version: master
+
 - src: mrlesmithjr.mariadb-mysql
   version: master
 
