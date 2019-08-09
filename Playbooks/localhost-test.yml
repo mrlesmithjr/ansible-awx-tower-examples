@@ -2,7 +2,7 @@
 - hosts: localhost
   connection: local
   vars:
-    env: dev
+    env: qa
     loc: atlanta
     dc: alpharetta
   tasks:
