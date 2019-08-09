@@ -1,6 +1,10 @@
 ---
 - hosts: localhost
   connection: local
+  vars:
+    env: dev
+    loc: atlanta
+    dc: alpharetta
   tasks:
     - name: Display OS Family
       debug:
@@ -9,3 +13,15 @@
     - name: Display Interfaces
       debug:
         var: ansible_interfaces
+
+    - name: Displaying Environment
+      debug:
+        var: env
+
+    - name: Displaying Location
+      debug:
+        var: loc
+
+    - name: Displaying Datacenter
+      debug:
+        var: dc
