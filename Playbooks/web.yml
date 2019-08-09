@@ -1,3 +1,5 @@
 ---
 - name: Provision Web Servers
   hosts: web
+  roles:
+    - role: mrlesmithjr.nginx

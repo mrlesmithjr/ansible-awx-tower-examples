@@ -1,0 +1,5 @@
+---
+- name: Bootstrap Servers
+  hosts: db:web
+  roles:
+    - role: mrlesmithjr.bootstrap

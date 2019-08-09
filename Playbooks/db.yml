@@ -1,3 +1,5 @@
 ---
 - name: Provision DB Servers
   hosts: db
+  roles:
+    - role: mrlesmithjr.mariadb-mysql
